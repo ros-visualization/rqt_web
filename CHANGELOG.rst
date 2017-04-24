@@ -2,8 +2,8 @@
 Changelog for package rqt_web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming changes
--------------------
+0.4.8 (2017-04-24)
+------------------
 * add missing WebKit dependency (`#449 <https://github.com/ros-visualization/rqt_common_plugins/pull/449>`_)
 
 0.4.7 (2017-03-02)
