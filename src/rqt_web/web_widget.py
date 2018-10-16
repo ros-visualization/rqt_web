@@ -59,6 +59,7 @@ def is_string(s):
 
 
 class WebWidget(QWidget):
+
     def __init__(self, url=None):
         """
         Class to load a webpage in a widget.
@@ -155,7 +156,8 @@ class WebWidget(QWidget):
         else:
             # need to disconnect or we will resend the signal once the error page loads
             self._view.loadFinished[bool].disconnect(self._handle_load_finished)
-            self._view.page().currentFrame().setHtml('<html><h2>The url you entered seems to be faulty.</h2></html>')
+            self._view.page().currentFrame().setHtml(
+                '<html><h2>The url you entered seems to be faulty.</h2></html>')
             self._view.loadFinished[bool].connect(self._handle_load_finished)
 
     def _add_completer_list_item(self, url):
