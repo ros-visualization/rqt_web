@@ -36,9 +36,11 @@ from rqt_web.web_widget import WebWidget
 
 
 class Web(Plugin):
+
     """
     Plugin to interface with webtools via ros_gui
     """
+
     def __init__(self, context):
         """
         :param context: plugin context hook to enable adding widgets as a ROS_GUI pane, ''PluginContext''
@@ -54,8 +56,8 @@ class Web(Plugin):
 
         #  This method is used to specify a static url
         #  NOTE: this method will hide the url bar
-        #self._web = WebWidget('http://ros.org')
-        #context.add_widget(self._web)
+        # self._web = WebWidget('http://ros.org')
+        # context.add_widget(self._web)
 
         #  To change the url at a later time use this function
         # self._web.set_url('http://willowgarage.com')
