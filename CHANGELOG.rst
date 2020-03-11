@@ -2,6 +2,12 @@
 Changelog for package rqt_web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* bump CMake minimum version to avoid CMP0048 warning
+* add Python 3 conditional dependencies (`#2 <https://github.com/ros-visualization/rqt_web/issues/2>`_)
+* autopep8 (`#1 <https://github.com/ros-visualization/rqt_web/issues/1>`_)
+
 0.4.8 (2017-04-24)
 ------------------
 * add missing WebKit dependency (`#449 <https://github.com/ros-visualization/rqt_common_plugins/pull/449>`_)
