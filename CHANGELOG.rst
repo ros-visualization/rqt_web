@@ -2,6 +2,11 @@
 Changelog for package rqt_web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix shebang line for python3 (`#4 <https://github.com/ros-visualization/rqt_web/issues/4>`_)
+* Contributors: Mikael Arguedas
+
 0.4.9 (2020-03-11)
 ------------------
 * bump CMake minimum version to avoid CMP0048 warning
