@@ -2,8 +2,8 @@
 Changelog for package rqt_web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.10 (2021-04-21)
+-------------------
 * fix shebang line for python3 (`#4 <https://github.com/ros-visualization/rqt_web/issues/4>`_)
 * Contributors: Mikael Arguedas
 
