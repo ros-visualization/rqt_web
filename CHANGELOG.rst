@@ -2,8 +2,8 @@
 Changelog for package rqt_web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.4.11 (2025-04-10)
+-------------------
 * Import setup from setuptools instead of distutils.core (`#6 <https://github.com/ros-visualization/rqt_web/issues/6>`_)
 * Update maintainers (`#5 <https://github.com/ros-visualization/rqt_web/issues/5>`_)
 * Contributors: Arne Hitzmann, David V. Lu!!, Matthijs van der Burgh, Shane Loretz
