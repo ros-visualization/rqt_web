@@ -2,6 +2,12 @@
 Changelog for package rqt_web
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Import setup from setuptools instead of distutils.core (`#6 <https://github.com/ros-visualization/rqt_web/issues/6>`_)
+* Update maintainers (`#5 <https://github.com/ros-visualization/rqt_web/issues/5>`_)
+* Contributors: Arne Hitzmann, David V. Lu!!, Matthijs van der Burgh, Shane Loretz
+
 0.4.10 (2021-04-21)
 -------------------
 * fix shebang line for python3 (`#4 <https://github.com/ros-visualization/rqt_web/issues/4>`_)
